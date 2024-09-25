@@ -21,6 +21,4 @@ I worked as a data analyst contracted through a marketing agency where I would w
 I also did two internships at Huntington Bank where I worked in their data engineering department and MLOps department.  I used metadata to perform file ingestions based on customer need.  I also wrote a lambda for AWS that would pull files off sharepoint on a Mon-Fri schedule, which would then trigger a series of lambdas to ingest files into the datalake to be used in snowflake, Athena and Tableau.
 
 ## Favorite Meme - so far
-Here's the link to my favorite [meme](MEME.jpg)
-
-[Here's the link to my favorite meme](images/MEME.jpg)
+Here's the link to my favorite [meme](images/MEME.jpg)
