@@ -15,10 +15,11 @@ body, html {
   align-items: center;
   color: white;
   text-align: center;
+  opacity: 0.8;
 }
 
 .content {
-  background: rgba(0, 0, 0, 0.68);
+  background: rgb(0, 0, 0);
   padding: 20px;
   border-radius: 10px;
 }
@@ -32,7 +33,7 @@ body, html {
 }
 
 .cell {
-  background-color: #f0f0f0;
+  background-color: #00ffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,11 +43,11 @@ body, html {
 }
 
 .cell.X {
-  background-color: lightgreen;
+  background-color: rgb(2, 58, 2);
 }
 
 .cell.O {
-  background-color: pink;
+  background-color: rgb(203, 0, 253);
 }
 
 #gameStatusMessage {
