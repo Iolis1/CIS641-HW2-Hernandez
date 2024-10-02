@@ -1,8 +1,3 @@
----
-layout: default
-title: "README"
----
-
 # Lupe Ken-Valentino Hernnadez Jr.
 
 ## Interests
