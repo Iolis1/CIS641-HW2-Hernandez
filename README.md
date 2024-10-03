@@ -1,8 +1,3 @@
----
-layout: default
-title: "README"
----
-
 [HOME](index.html)
 
 # Lupe Ken-Valentino Hernnadez Jr.
