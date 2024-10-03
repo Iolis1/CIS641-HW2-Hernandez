@@ -1,4 +1,4 @@
-[HOME]([index.html](https://iolis1.github.io/CIS641-HW2-Hernandez/))
+[HOME](https://iolis1.github.io/CIS641-HW2-Hernandez/)
 
 # Lupe Ken-Valentino Hernnadez Jr.
 
