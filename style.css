@@ -2,6 +2,24 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
+  color: white;
+  background-color: #f0f0f0;
+}
+
+#homeButton {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+#homeButton:hover {
+  background-color: #218838;
 }
 
 .bg {
@@ -12,13 +30,22 @@ body, html {
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  opacity: 0.8;
+  align-items: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .content {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 40px auto;
+}
+
+.content2 {
   background: rgb(0, 0, 0);
   padding: 20px;
   border-radius: 10px;
@@ -65,14 +92,46 @@ body, html {
 }
 
 h1 {
-  margin-top: 0;
-  text-align: center;
-  font-size: 48px;
-  margin-bottom: 5px;
-  text-emphasis: bold;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
-p{
-  text-align: center;
-  font-size: 24px;
-  margin: .5em 0 2em;
+
+h2 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+a#playAgainButton {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+a#playAgainButton:hover {
+  background-color: #0056b3;
 }
