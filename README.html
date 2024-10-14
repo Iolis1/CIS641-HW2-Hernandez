@@ -9,7 +9,49 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play About Me.</tw-noscript></noscript></tw-story>
-<tw-storydata name="About Me" startnode="1" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="EB727EB6-C16B-4B3D-83B1-CF6BBA54F789" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="README" tags="" position="800,325" size="100,100">Welcome to my Twine game! Below, you&#39;ll find different aspects of my life, technical background, and interests. Choose a section to explore!
+<tw-storydata name="About Me" startnode="1" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="EB727EB6-C16B-4B3D-83B1-CF6BBA54F789" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"><style title="Custom Twine CSS">
+
+    tw-story {
+        background-image: url('images/dndBattle.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    h1, h2, h3 {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    p, ul {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    a {
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    a:hover {
+        background-color: #218838;
+    }
+</style>
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="README" tags="" position="800,325" size="100,100">Welcome to my Twine game! Below, you&#39;ll find different aspects of my life, technical background, and interests. Choose a section to explore!
 
 * [[Interests]]
 * [[Technical Background]]
@@ -40,8 +82,7 @@
     * I also did two internships at Huntington Bank where I worked in their data engineering department and MLOps department. I used metadata to perform file ingestions based on customer need. I also wrote a lambda for AWS that would pull files off SharePoint on a Mon-Fri schedule, which would then trigger a series of lambdas to ingest files into the datalake to be used in Snowflake, Athena, and Tableau.
 
 * [[Back to Start]]</tw-passagedata><tw-passagedata pid="4" name="Favorite Meme" tags="" position="862.5,450" size="100,100">Here&#39;s the link to my favorite meme:
-
-* [View Meme](images/MEME.jpg)
+    <img src="images/MEME.jpg" alt="Favorite Meme" style="max-width: 100%; height: auto;"/>
 
 * [[Back to Start]]
 </tw-passagedata><tw-passagedata pid="5" name="Back to Start" tags="" position="987.5,450" size="100,100">Welcome to my Twine game! Below, you&#39;ll find different aspects of my life, technical background, and interests. Choose a section to explore!
