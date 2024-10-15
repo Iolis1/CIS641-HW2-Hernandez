@@ -9,59 +9,18 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play About Me.</tw-noscript></noscript></tw-story>
-<tw-storydata name="About Me" startnode="1" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="EB727EB6-C16B-4B3D-83B1-CF6BBA54F789" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"><style title="Custom Twine CSS">
-
-    tw-story {
-        background-image: url('images/dndBattle.jpg');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        color: white;
-    }
-
-    h1, h2, h3 {
-        color: #ffffff;
-        text-align: center;
-    }
-
-    img {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        height: auto;
-    }
-
-    p, ul {
-        font-size: 1.2em;
-        line-height: 1.5em;
-        margin-bottom: 20px;
-    }
-
-    a {
-        background-color: #28a745;
-        color: white;
-        text-decoration: none;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 5px;
-        display: inline-block;
-    }
-
-    a:hover {
-        background-color: #218838;
-    }
-</style>
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="README" tags="" position="800,325" size="100,100">Welcome to my Twine game! Below, you&#39;ll find different aspects of my life, technical background, and interests. Choose a section to explore!
+<tw-storydata name="About Me" startnode="1" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="EB727EB6-C16B-4B3D-83B1-CF6BBA54F789" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="README" tags="" position="675,275" size="100,100">Welcome to my Twine game! Below, you&#39;ll find different aspects of my life, technical background, and interests. Choose a section to explore!
 
 * [[Interests]]
 * [[Technical Background]]
+* [[What I&#39;m Working On]]
 * [[Favorite Meme]]
 
 
 
 
 
-</tw-passagedata><tw-passagedata pid="2" name="Interests" tags="" position="625,450" size="100,100">Here are some of my interests:
+</tw-passagedata><tw-passagedata pid="2" name="Interests" tags="" position="500,450" size="100,100">Here are some of my interests:
 
 * **Personal Interests**:
     * Gaming - I stream whichever game I decide to play pretty regularly on Twitch.
@@ -72,7 +31,7 @@
     * I want to learn more about LLMs and how to utilize them to simplify data for easier public understanding.
     * My current research is simplifying medical testing data for patient understanding.
 
-* [[Back to Start]]</tw-passagedata><tw-passagedata pid="3" name="Technical Background" tags="" position="750,450" size="100,100">Here&#39;s a summary of my technical background:
+* [[Back to Start]]</tw-passagedata><tw-passagedata pid="3" name="Technical Background" tags="" position="625,450" size="100,100">Here&#39;s a summary of my technical background:
 
 * **Programming Languages**:
     * Java, Lisp, Javascript, C, C++, Go, Ruby, Python, Terraform, and assembly language (not very good).
@@ -81,16 +40,21 @@
     * I worked as a data analyst contracted through a marketing agency where I would write surveys, clean results, and analyze data to create charts and graphs to help companies understand trends, user knowledge, and brand awareness. The programs we used were DisplayR, Sawtooth software, SurveyMonkey, Tableau, and a couple others that I can&#39;t recall.
     * I also did two internships at Huntington Bank where I worked in their data engineering department and MLOps department. I used metadata to perform file ingestions based on customer need. I also wrote a lambda for AWS that would pull files off SharePoint on a Mon-Fri schedule, which would then trigger a series of lambdas to ingest files into the datalake to be used in Snowflake, Athena, and Tableau.
 
-* [[Back to Start]]</tw-passagedata><tw-passagedata pid="4" name="Favorite Meme" tags="" position="862.5,450" size="100,100">Here&#39;s the link to my favorite meme:
-    <img src="images/MEME.jpg" alt="Favorite Meme" style="max-width: 100%; height: auto;"/>
+* [[Back to Start]]</tw-passagedata><tw-passagedata pid="4" name="Favorite Meme" tags="" position="750,450" size="100,100">Here&#39;s the link to my favorite meme:
+
+* [View Meme](images/MEME.jpg)
 
 * [[Back to Start]]
-</tw-passagedata><tw-passagedata pid="5" name="Back to Start" tags="" position="987.5,450" size="100,100">Welcome to my Twine game! Below, you&#39;ll find different aspects of my life, technical background, and interests. Choose a section to explore!
+</tw-passagedata><tw-passagedata pid="5" name="Back to Start" tags="" position="650,600" size="100,100">Welcome to my Twine game! Below, you&#39;ll find different aspects of my life, technical background, and interests. Choose a section to explore!
 
 * [[Interests]]
 * [[Technical Background]]
 * [[Favorite Meme]]
-</tw-passagedata></tw-storydata>
+</tw-passagedata><tw-passagedata pid="6" name="What I&#39;m Working On" tags="" position="875,450" size="100,100">Here&#39;s a description of what I&#39;m working on: 
+
+I will be developing a program that generates a summary of a patient’s medical test results, which will be displayed on the patient portal for review. Medical professionals will be able to approve, edit, submit, or decline the summary. The program will follow Agile methodology and will be completed in two months. Since I am working solo, I will handle the development, management, testing, and deployment of the project, as well as all associated tasks such as maintenance, documentation, and monitoring.
+
+* [[Back to Start]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
